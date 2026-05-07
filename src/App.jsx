@@ -9,6 +9,7 @@ import Packages from "./pages/Packages";
 import PackageDetails from "./pages/PackageDetails";
 import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
 
       <Footer />
       <FloatingActions />
+      <SpeedInsights />
     </div>
   );
 }
