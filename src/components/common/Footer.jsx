@@ -110,7 +110,9 @@ const Footer = () => {
               </a>
 
               <a
-                href="#"
+                href="https://www.instagram.com/safarjunction_?igsh=eTl2M2t1ZHRuM3k4"
+                target="_blank"
+                rel="noreferrer"
                 className={`w-10 h-10 rounded-full flex items-center justify-center hover:bg-[#D4AF37] hover:text-[#071C2F] transition ${iconBox}`}
               >
                 <FaInstagram />
