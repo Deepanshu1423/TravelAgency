@@ -215,7 +215,7 @@ const Footer = () => {
 
               <p className="flex items-start gap-3">
                 <FaMapMarkerAlt className="text-[#D4AF37] mt-1" />
-                Haldwani, Uttarakhand
+                Noida sector 16, Uttar Pradesh, India - 201301
               </p>
             </div>
 
