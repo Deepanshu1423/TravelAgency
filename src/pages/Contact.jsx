@@ -176,7 +176,7 @@ Message: ${formData.message || "Please share package details."}`;
 
               <div>
                 <h3 className="font-bold text-[#071C2F]">Address</h3>
-                <p className="mt-1 text-gray-600">Haldwani, Uttarakhand</p>
+                <p className="mt-1 text-gray-600">Noida sector 16, Uttar Pradesh, India - 201301</p>
               </div>
             </div>
           </div>
@@ -353,7 +353,7 @@ Message: ${formData.message || "Please share package details."}`;
               </h3>
 
               <p className={isLight ? "mt-2 text-gray-600" : "mt-2 text-gray-300"}>
-                Haldwani, Uttarakhand
+                Noida sector 16, Uttar Pradesh, India - 201301
               </p>
 
               <p className="mt-2 text-sm text-gray-500">
