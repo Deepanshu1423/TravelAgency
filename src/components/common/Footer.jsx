@@ -20,7 +20,7 @@ const Footer = () => {
     "Hello Safar Junction, I want to know more about your travel packages.";
 
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
-    message
+    message,
   )}`;
 
   const footerBg = isLight
@@ -79,18 +79,18 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <Link to="/" className="flex items-center gap-3">
-              <img
-                src="/logo/safar-logo.jpeg"
-                alt="Safar Junction Logo"
-                className="h-16 w-32 rounded-xl object-contain bg-white/10 border border-[#D4AF37]/50 shadow-lg p-1"
-              />
+              <div className="brand-logo-circle footer-logo-circle">
+                <img src="/logo/safar-logo.jpeg" alt="Safar Junction Logo" />
+              </div>
 
               <div>
                 <h2 className="text-2xl font-bold">
                   Safar <span className="text-[#D4AF37]">Junction</span>
                 </h2>
 
-                <p className={`text-[10px] uppercase tracking-[0.25em] ${mutedText}`}>
+                <p
+                  className={`text-[10px] uppercase tracking-[0.25em] ${mutedText}`}
+                >
                   Travel Agency
                 </p>
               </div>

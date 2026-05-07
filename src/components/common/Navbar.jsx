@@ -40,11 +40,9 @@ const Navbar = () => {
           onClick={() => setIsOpen(false)}
           className="flex items-center gap-3"
         >
-          <img
-            src="/logo/safar-logo.jpeg"
-            alt="Safar Junction Logo"
-            className="h-12 w-24 rounded-xl object-contain bg-white/10 border border-[#D4AF37]/50 shadow-md p-1"
-          />
+          <div className="brand-logo-circle">
+            <img src="/logo/safar-logo.jpeg" alt="Safar Junction Logo" />
+          </div>
 
           <div className="leading-tight">
             <h1 className="text-xl md:text-2xl font-bold tracking-wide">

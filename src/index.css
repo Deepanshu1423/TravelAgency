@@ -280,3 +280,36 @@ button {
     background-position: 220% 50%;
   }
 }
+
+
+.brand-logo-circle {
+  width: 54px;
+  height: 54px;
+  border-radius: 999px;
+  padding: 4px;
+  border: 1.5px solid rgba(212, 175, 55, 0.75);
+  background: radial-gradient(circle, rgba(255, 248, 231, 0.18), rgba(212, 175, 55, 0.08));
+  box-shadow: 0 10px 28px rgba(212, 175, 55, 0.18);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.brand-logo-circle img {
+  width: 100%;
+  height: 100%;
+  border-radius: 999px;
+  object-fit: cover;
+}
+
+.light-theme .brand-logo-circle {
+  background: radial-gradient(circle, rgba(7, 28, 47, 0.08), rgba(212, 175, 55, 0.18));
+  border-color: rgba(7, 28, 47, 0.25);
+  box-shadow: 0 10px 28px rgba(7, 28, 47, 0.12);
+}
+
+.footer-logo-circle {
+  width: 66px;
+  height: 66px;
+}
